@@ -1,0 +1,744 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全局样式 */
+body {
+    font-family: 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f1eb 0%, #e8ddd4 100%);
+    color: #3c2e26;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 头部样式 */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.3);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+/* 主要内容区域 */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* 占卜表单样式 */
+.divination-form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4af37;
+}
+
+.divination-form h2 {
+    color: #8B4513;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #8B4513;
+    font-size: 1rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #fafafa;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #d4af37;
+    background: white;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+/* 按钮样式 */
+.divine-btn,
+.new-divine-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+    color: #8B4513;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.divine-btn:hover,
+.new-divine-btn:hover {
+    background: linear-gradient(135deg, #f4d03f 0%, #d4af37 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+}
+
+.divine-btn:active,
+.new-divine-btn:active {
+    transform: translateY(0);
+}
+
+/* 结果区域样式 */
+.result-section {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4af37;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.result-section h2 {
+    color: #8B4513;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+}
+
+.result-content {
+    line-height: 1.8;
+}
+
+.result-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid #d4af37;
+}
+
+.result-item h3 {
+    color: #8B4513;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.result-item p {
+    margin-bottom: 8px;
+}
+
+.fortune-good {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.fortune-bad {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.calculation-steps {
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #b0c4de;
+}
+
+.calculation-steps h4 {
+    color: #4682b4;
+    margin-bottom: 10px;
+}
+
+.calculation-steps ol {
+    padding-left: 20px;
+}
+
+.calculation-steps li {
+    margin-bottom: 5px;
+}
+
+/* 底部样式 */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.note {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 万年历样式 */
+.calendar-section {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.15);
+    border: 2px solid rgba(139, 69, 19, 0.1);
+}
+
+.calendar-section h2 {
+    text-align: center;
+    color: #8B4513;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.year-controls, .month-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, #8B4513, #A0522D);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.year-btn {
+    background: linear-gradient(135deg, #4A5D23, #6B8E23);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.year-btn:hover {
+    background: linear-gradient(135deg, #6B8E23, #8FBC8F);
+    transform: scale(1.1);
+}
+
+.nav-btn:hover {
+    background: linear-gradient(135deg, #A0522D, #CD853F);
+    transform: scale(1.1);
+}
+
+.month-display, .year-display {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #8B4513;
+    min-width: 120px;
+    text-align: center;
+}
+
+.year-display {
+    color: #4A5D23;
+    font-size: 1.4rem;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    background: rgba(139, 69, 19, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.calendar-header {
+    background: linear-gradient(135deg, #8B4513, #A0522D);
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.calendar-day {
+    background: white;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+    border-radius: 8px;
+    padding: 8px 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.calendar-day:hover {
+    background: rgba(139, 69, 19, 0.1);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(139, 69, 19, 0.2);
+}
+
+.calendar-day.selected {
+    background: linear-gradient(135deg, #8B4513, #A0522D);
+    color: white;
+    font-weight: 600;
+}
+
+.calendar-day.other-month {
+    color: #ccc;
+    background: #f9f9f9;
+}
+
+.calendar-day.today {
+    border: 2px solid #FF6B35;
+    font-weight: 600;
+}
+
+.solar-date {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.lunar-date {
+    font-size: 0.75rem;
+    color: #666;
+    opacity: 0.8;
+}
+
+.calendar-day.selected .lunar-date {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.selected-date-info {
+    background: rgba(139, 69, 19, 0.05);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+.selected-date-info p {
+    margin: 5px 0;
+    color: #8B4513;
+}
+
+.selected-date-info .date-detail {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.selected-date-info .lunar-detail {
+    color: #A0522D;
+    font-size: 0.95rem;
+}
+
+.selected-date-info .ganzhi-detail {
+    color: #4A5D23;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: rgba(74, 93, 35, 0.1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 8px auto 5px;
+    display: inline-block;
+    border: 1px solid rgba(74, 93, 35, 0.2);
+}
+
+/* 万年历提示样式 */
+.calendar-helper {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.helper-text {
+    color: #8B4513;
+    font-size: 0.9rem;
+    background: rgba(139, 69, 19, 0.1);
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .calendar-grid {
+        gap: 1px;
+        padding: 5px;
+    }
+    
+    .calendar-day {
+        min-height: 50px;
+        padding: 5px 2px;
+    }
+    
+    .solar-date {
+        font-size: 0.9rem;
+    }
+    
+    .lunar-date {
+        font-size: 0.7rem;
+    }
+    
+    .month-display {
+        font-size: 1.1rem;
+        min-width: 150px;
+    }
+    
+    .nav-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+    
+    .divination-form,
+    .result-section {
+        padding: 15px;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+/* 加载状态 */
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.loading .divine-btn::after {
+    content: '占卜中...';
+}
+
+/* 错误提示 */
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-left: 4px solid #c62828;
+    font-size: 0.9rem;
+}
+
+/* 成功提示 */
+.success-message {
+    background: #e8f5e8;
+    color: #2e7d32;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-left: 4px solid #2e7d32;
+    font-size: 0.9rem;
+}
+
+/* 历史记录样式 */
+.history-section {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.history-section h2 {
+    color: #8B4513;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid #8B4513;
+    padding-bottom: 15px;
+}
+
+.history-controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #8B4513;
+    box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
+}
+
+.clear-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.clear-btn:hover {
+    background: #c82333;
+}
+
+.history-list {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 25px;
+}
+
+.history-record {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.history-record:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.record-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.record-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.delete-record-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+.delete-record-btn:hover {
+    background: #c82333;
+}
+
+.record-content {
+    line-height: 1.6;
+}
+
+.record-content > div {
+    margin-bottom: 10px;
+}
+
+.record-content strong {
+    color: #8B4513;
+}
+
+.record-question {
+    font-size: 1.05rem;
+}
+
+.record-lunar-date {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+.record-result {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.fortune-good {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.fortune-bad {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.record-meaning {
+    background: rgba(139, 69, 19, 0.05);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #8B4513;
+    font-style: italic;
+}
+
+.no-records {
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.1rem;
+    padding: 40px 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 2px dashed #dee2e6;
+}
+
+.back-btn {
+    background: #8B4513;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.back-btn:hover {
+    background: #A0522D;
+}
+
+.history-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.history-btn:hover {
+    background: #5a6268;
+}
+
+/* 响应式设计 - 历史记录 */
+@media (max-width: 768px) {
+    .history-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .search-input {
+        width: 100%;
+    }
+    
+    .record-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .history-record {
+        padding: 15px;
+    }
+}

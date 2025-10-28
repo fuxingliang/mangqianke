@@ -1,0 +1,33 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="192" height="192" rx="24" fill="url(#bg)"/>
+  
+  <!-- 卷轴背景 -->
+  <rect x="24" y="48" width="144" height="96" rx="8" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- 卷轴装饰 -->
+  <rect x="20" y="44" width="8" height="104" rx="4" fill="#8b4513"/>
+  <rect x="164" y="44" width="8" height="104" rx="4" fill="#8b4513"/>
+  
+  <!-- 文字装饰线条 -->
+  <line x1="36" y1="72" x2="156" y2="72" stroke="#667eea" stroke-width="2"/>
+  <line x1="36" y1="88" x2="156" y2="88" stroke="#667eea" stroke-width="2"/>
+  <line x1="36" y1="104" x2="156" y2="104" stroke="#667eea" stroke-width="2"/>
+  <line x1="36" y1="120" x2="156" y2="120" stroke="#667eea" stroke-width="2"/>
+  
+  <!-- 中心文字 "马" -->
+  <text x="96" y="110" font-family="serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#2c3e50">马</text>
+  
+  <!-- 装饰元素 -->
+  <circle cx="48" cy="64" r="3" fill="#ff6b6b"/>
+  <circle cx="144" cy="64" r="3" fill="#ff6b6b"/>
+  <circle cx="48" cy="128" r="3" fill="#ff6b6b"/>
+  <circle cx="144" cy="128" r="3" fill="#ff6b6b"/>
+</svg>
