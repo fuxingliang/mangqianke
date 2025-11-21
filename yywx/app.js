@@ -1,5 +1,8 @@
 let baseFont=16
 const statusEl=document.getElementById('status')
+const sidebarEl=document.getElementById('sidebar')
+const overlayEl=document.getElementById('overlay')
+const menuBtn=document.getElementById('btn-menu')
 const lessonListEl=document.getElementById('lesson-list')
 const lessonTitleEl=document.getElementById('lesson-title')
 const lessonContentEl=document.getElementById('lesson-content')
@@ -71,7 +74,7 @@ function setStatus(msg){statusEl.textContent=msg||''}
 function switchTab(key){tabs.forEach(t=>t.classList.toggle('active',t.dataset.tab===key));Object.keys(panels).forEach(k=>panels[k].classList.toggle('active',k===key))}
 function renderLessonList(){lessonListEl.innerHTML='';LESSONS.forEach(ls=>{const li=document.createElement('li');li.textContent=ls.title;li.dataset.id=ls.id;li.onclick=()=>onLessonSelected(ls);lessonListEl.appendChild(li)})}
 async function loadMarkdown(path){try{const r=await fetch(path);if(!r.ok){lessonContentEl.innerHTML='未找到课程文件';return}let txt=await r.text();txt=txt.replace(/\((\.?\/)?assets\//g,'(../assets/');lessonTitleEl.textContent=path.split('/').pop();lessonContentEl.innerHTML=marked.parse(txt)}catch(e){lessonContentEl.innerHTML='加载失败'}}
-function onLessonSelected(ls){currentLesson=ls;switchTab('lesson');loadMarkdown(PATHS.lessons+ls.file);setStatus('已加载：'+ls.title+' | 练习：'+ls.quiz);preparePractice(ls.quiz);prepareExam(ls.quiz)}
+function onLessonSelected(ls){currentLesson=ls;switchTab('lesson');loadMarkdown(PATHS.lessons+ls.file);setStatus('已加载：'+ls.title+' | 练习：'+ls.quiz);preparePractice(ls.quiz);prepareExam(ls.quiz);closeSidebarOnMobile()}
 async function loadQuiz(file){try{const r=await fetch(PATHS.quizzes+file);if(!r.ok)return null;const data=await r.json();return data}catch(e){return null}}
 function createEngine(quiz){return{
  quiz,idx:0,score:0,answered:0,total:quiz?quiz.questions.length:0,answers:[],
@@ -103,6 +106,12 @@ exam.submitBtn.onclick=()=>{if(!examQuestions.length){alert('没有可提交的�
 document.getElementById('btn-plus').onclick=()=>{setFontSize(baseFont+1);setStatus('当前字号：'+baseFont+'   点击左侧课程，右侧选择功能进行学习、练习、考试')}
 document.getElementById('btn-minus').onclick=()=>{setFontSize(baseFont-1);setStatus('当前字号：'+baseFont+'   点击左侧课程，右侧选择功能进行学习、练习、考试')}
 tabs.forEach(t=>t.onclick=()=>switchTab(t.dataset.tab))
+function isMobile(){return window.matchMedia('(max-width: 768px)').matches}
+function openSidebar(){if(!sidebarEl)return;sidebarEl.classList.add('open');if(overlayEl)overlayEl.classList.add('show')}
+function closeSidebar(){if(!sidebarEl)return;sidebarEl.classList.remove('open');if(overlayEl)overlayEl.classList.remove('show')}
+function closeSidebarOnMobile(){if(isMobile())closeSidebar()}
+if(menuBtn){menuBtn.onclick=()=>{if(isMobile()){const opened=sidebarEl.classList.contains('open');opened?closeSidebar():openSidebar()}}}
+if(overlayEl){overlayEl.onclick=()=>closeSidebar()}
 setFontSize(baseFont)
 renderLessonList()
 if(LESSONS.length){onLessonSelected(LESSONS[0])}

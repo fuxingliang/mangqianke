@@ -9,14 +9,15 @@
 </head>
 <body>
 <header class="app-header">
+<button id="btn-menu" class="menu-btn" aria-label="打开课程列表">☰</button>
 <div class="title">云俟尘命理学基础</div>
 <div class="actions">
 <button id="btn-minus">A-</button>
 <button id="btn-plus">A+</button>
-</div>
+ </div>
 </header>
 <main class="app-main">
-<aside class="sidebar">
+<aside class="sidebar" id="sidebar">
 <div class="sidebar-title">课程与小节</div>
 <ul id="lesson-list"></ul>
 </aside>
@@ -79,6 +80,7 @@
 </div>
 </section>
 </main>
+<div id="overlay" class="overlay" aria-hidden="true"></div>
 <script src="./app.js"></script>
 </body>
 </html>
