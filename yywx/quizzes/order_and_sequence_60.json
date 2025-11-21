@@ -1,0 +1,26 @@
+{
+  "id": "quiz_order_sequence",
+  "title": "A7 秩序和顺序（练习与考试题）",
+  "questions": [
+    {"id":"Q1","type":"single_choice","stem":"关于‘顺序’的定义，哪项正确？","options":["按宫位年/月/日/时的优先级","先本气库后余气库的流程","按十神映射的取象","按季节节令论旺衰"],"answer":[1],"tags":["定义","顺序"],"explanation":"顺序：先本气库，后余气库，可被做功打乱。","difficulty":"L1"},
+    {"id":"Q2","type":"single_choice","stem":"关于‘秩序’的定义，哪项正确？","options":["先本气库后余气库","按年/月/日/时的宫位优先级","按冲合刑害决定","按本气与余气对半权重"],"answer":[1],"tags":["定义","秩序"],"explanation":"秩序：宫位优先级，年＞月＞日＞时。","difficulty":"L1"},
+    {"id":"Q3","type":"single_choice","stem":"甲乙的本气库与余气库分别是？","options":["本未/余辰","本戌/余未","本丑/余戌","本辰/余丑"],"answer":[0],"tags":["甲乙","库"],"explanation":"甲乙：本气库未，余气库辰。","difficulty":"L1"},
+    {"id":"Q4","type":"single_choice","stem":"丙丁的本气库与余气库分别是？","options":["本未/余辰","本戌/余未","本丑/余戌","本辰/余丑"],"answer":[1],"tags":["丙丁","库"],"explanation":"丙丁：本戌，余未。","difficulty":"L1"},
+    {"id":"Q5","type":"single_choice","stem":"戊己的本气库与余气库分别是？","options":["本戌/余未","本未/余辰","本丑/余戌","本辰/余丑"],"answer":[0],"tags":["戊己","库"],"explanation":"戊己：本戌，余未。","difficulty":"L1"},
+    {"id":"Q6","type":"single_choice","stem":"庚辛的本气库与余气库分别是？","options":["本未/余辰","本戌/余未","本丑/余戌","本辰/余丑"],"answer":[2],"tags":["庚辛","库"],"explanation":"庚辛：本丑，余戌。","difficulty":"L1"},
+    {"id":"Q7","type":"single_choice","stem":"壬癸的本气库与余气库分别是？","options":["本未/余辰","本戌/余未","本丑/余戌","本辰/余丑"],"answer":[3],"tags":["壬癸","库"],"explanation":"壬癸：本辰，余丑。","difficulty":"L1"},
+    {"id":"Q8","type":"single_choice","stem":"‘顺序可以打乱，秩序乱了就有灾’的理解正确的是？","options":["两者都可打乱且无灾","顺序可打乱，秩序不可打乱","秩序可打乱，顺序不可打乱","两者都不可打乱"],"answer":[1],"tags":["原则"],"explanation":"顺序可被做功插队；秩序乱则易出灾象。","difficulty":"L1"},
+    {"id":"Q9","type":"single_choice","stem":"案例：年支辰、月支未、日干甲。‘顺序’的结论是？","options":["甲先从辰出，后从未出","甲先从未出，后从辰出","只从辰出","只从未出"],"answer":[1],"tags":["案例","顺序"],"explanation":"顺序：本气先（未），余气后（辰）。","difficulty":"L1"},
+    {"id":"Q10","type":"single_choice","stem":"同案例下‘秩序’的结论是？","options":["甲先从未出，后从辰出","甲先从辰出，后从未出","只从辰出","只从未出"],"answer":[1],"tags":["案例","秩序"],"explanation":"秩序：按宫位年优先（辰），再到月（未）。","difficulty":"L1"},
+    {"id":"Q11","type":"single_choice","stem":"当宫位与库出现矛盾时，应优先参考？","options":["顺序","秩序","十神","岁运"],"answer":[1],"tags":["规则"],"explanation":"秩序（宫位优先级）先行。","difficulty":"L1"},
+    {"id":"Q12","type":"single_choice","stem":"以下关于‘做功’影响的描述正确是？","options":["只能影响秩序","只能影响顺序","同时影响两者","都不影响"],"answer":[1],"tags":["做功"],"explanation":"做功可插队打乱顺序；秩序不宜被打乱。","difficulty":"L2"},
+    {"id":"Q13","type":"single_choice","stem":"若年位无库、月位有库且为本气库，则秩序与顺序的综合判断偏向？","options":["秩序优先指向年位","顺序优先指向余气库","秩序指向月位，顺序指向本气库","均无参考价值"],"answer":[2],"tags":["综合"],"explanation":"秩序：月位有效；顺序：本气优先。","difficulty":"L2"},
+    {"id":"Q14","type":"single_choice","stem":"对于戊己土的实占判断，下列说法正确？","options":["只论顺序","只论秩序","只论出处","根基与出处并重"],"answer":[2],"tags":["戊己","特例"],"explanation":"戊己土只论出处（库）。","difficulty":"L1"},
+    {"id":"Q15","type":"single_choice","stem":"下列组合正确：庚辛的本气/余气库是？","options":["本戌/余未","本未/余辰","本丑/余戌","本辰/余丑"],"answer":[2],"tags":["庚辛","核对"],"explanation":"庚辛：本丑，余戌。","difficulty":"L1"},
+    {"id":"Q16","type":"single_choice","stem":"下列组合正确：壬癸的本气/余气库是？","options":["本戌/余未","本未/余辰","本丑/余戌","本辰/余丑"],"answer":[3],"tags":["壬癸","核对"],"explanation":"壬癸：本辰，余丑。","difficulty":"L1"},
+    {"id":"Q17","type":"single_choice","stem":"下列组合正确：丙丁的本气/余气库是？","options":["本戌/余未","本未/余辰","本丑/余戌","本辰/余丑"],"answer":[0],"tags":["丙丁","核对"],"explanation":"丙丁：本戌，余未。","difficulty":"L1"},
+    {"id":"Q18","type":"single_choice","stem":"下列组合正确：甲乙的本气/余气库是？","options":["本未/余辰","本戌/余未","本丑/余戌","本辰/余丑"],"answer":[0],"tags":["甲乙","核对"],"explanation":"甲乙：本未，余辰。","difficulty":"L1"},
+    {"id":"Q19","type":"single_choice","stem":"下列组合正确：戊己的本气/余气库是？","options":["本戌/余未","本未/余辰","本丑/余戌","本辰/余丑"],"answer":[0],"tags":["戊己","核对"],"explanation":"戊己：本戌，余未。","difficulty":"L1"},
+    {"id":"Q20","type":"single_choice","stem":"综合判断时，正确的工作流程是？","options":["先顺序后秩序","先秩序后顺序","只看其中之一","看十神即可"],"answer":[1],"tags":["流程"],"explanation":"先定秩序（宫位优先），再定顺序（本/余流程）。","difficulty":"L2"}
+  ]
+}

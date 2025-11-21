@@ -1,0 +1,26 @@
+{
+  "id": "quiz_branches_houtian_bagua",
+  "title": "A9 地支本意（后天八卦）练习与考试题",
+  "questions": [
+    {"id":"Q1","type":"single_choice","stem":"戌亥对应的后天八卦宫位与家人角色是？","options":["乾宫/父","坤宫/母","巽宫/长女","兑宫/少女"],"answer":[0],"tags":["乾宫","父"],"explanation":"戌、亥 → 乾宫（父）。","difficulty":"L1"},
+    {"id":"Q2","type":"single_choice","stem":"未申对应的后天八卦宫位与家人角色是？","options":["坤宫/母","艮宫/少男","离宫/中女","坎宫/中男"],"answer":[0],"tags":["坤宫","母"],"explanation":"未、申 → 坤宫（母）。","difficulty":"L1"},
+    {"id":"Q3","type":"single_choice","stem":"辰巳对应的后天八卦宫位与家人角色是？","options":["巽宫/长女","震宫/长男","离宫/中女","坎宫/中男"],"answer":[0],"tags":["巽宫","长女"],"explanation":"辰、巳 → 巽宫（长女）。","difficulty":"L1"},
+    {"id":"Q4","type":"single_choice","stem":"寅丑对应的后天八卦宫位与家人角色是？","options":["艮宫/少男","兑宫/少女","离宫/中女","乾宫/父"],"answer":[0],"tags":["艮宫","少男"],"explanation":"寅、丑 → 艮宫（少男）。","difficulty":"L1"},
+    {"id":"Q5","type":"single_choice","stem":"卯对应的后天八卦宫位与家人角色是？","options":["震宫/长男","巽宫/长女","坎宫/中男","离宫/中女"],"answer":[0],"tags":["震宫","长男"],"explanation":"卯 → 震宫（长男）。","difficulty":"L1"},
+    {"id":"Q6","type":"single_choice","stem":"子对应的后天八卦宫位与家人角色是？","options":["坎宫/中男","离宫/中女","兑宫/少女","艮宫/少男"],"answer":[0],"tags":["坎宫","中男"],"explanation":"子 → 坎宫（中男）。","difficulty":"L1"},
+    {"id":"Q7","type":"single_choice","stem":"酉对应的后天八卦宫位与家人角色是？","options":["兑宫/少女","巽宫/长女","乾宫/父","坤宫/母"],"answer":[0],"tags":["兑宫","少女"],"explanation":"酉 → 兑宫（少女）。","difficulty":"L1"},
+    {"id":"Q8","type":"single_choice","stem":"午对应的后天八卦宫位与家人角色是？","options":["离宫/中女","坎宫/中男","震宫/长男","艮宫/少男"],"answer":[0],"tags":["离宫","中女"],"explanation":"午 → 离宫（中女）。","difficulty":"L1"},
+    {"id":"Q9","type":"single_choice","stem":"下列组合正确的是？","options":["戌亥→乾父","未申→巽长女","辰巳→艮少男","寅丑→坤母"],"answer":[0],"tags":["配对"],"explanation":"戌亥→乾宫父。","difficulty":"L1"},
+    {"id":"Q10","type":"single_choice","stem":"下列组合正确的是？","options":["卯→震长男","子→离中女","酉→坎中男","午→兑少女"],"answer":[0],"tags":["配对"],"explanation":"卯→震宫长男。","difficulty":"L1"},
+    {"id":"Q11","type":"single_choice","stem":"‘地支本意（后天八卦）’用于何处？","options":["快速取象与宫位定位","判断十神映射","计算节令","推算流年"],"answer":[0],"tags":["概念"],"explanation":"用于快速取象与宫位定位。","difficulty":"L1"},
+    {"id":"Q12","type":"single_choice","stem":"实占中，地支本意应与下列哪项合参？","options":["根基/出处与寄宫","仅看寄宫","仅看根基","仅看秩序"],"answer":[0],"tags":["综合"],"explanation":"合参根基/出处与寄宫更稳。","difficulty":"L1"},
+    {"id":"Q13","type":"single_choice","stem":"未申对应的是？","options":["坤宫/母","离宫/中女","兑宫/少女","震宫/长男"],"answer":[0],"tags":["配对"],"explanation":"未申→坤母。","difficulty":"L1"},
+    {"id":"Q14","type":"single_choice","stem":"寅丑对应的是？","options":["艮宫/少男","坎宫/中男","巽宫/长女","离宫/中女"],"answer":[0],"tags":["配对"],"explanation":"寅丑→艮少男。","difficulty":"L1"},
+    {"id":"Q15","type":"single_choice","stem":"辰巳对应的是？","options":["巽宫/长女","乾宫/父","坤宫/母","兑宫/少女"],"answer":[0],"tags":["配对"],"explanation":"辰巳→巽长女。","difficulty":"L1"},
+    {"id":"Q16","type":"single_choice","stem":"酉对应的是？","options":["兑宫/少女","坎宫/中男","震宫/长男","艮宫/少男"],"answer":[0],"tags":["配对"],"explanation":"酉→兑少女。","difficulty":"L1"},
+    {"id":"Q17","type":"single_choice","stem":"午对应的是？","options":["离宫/中女","坎宫/中男","兑宫/少女","巽宫/长女"],"answer":[0],"tags":["配对"],"explanation":"午→离中女。","difficulty":"L1"},
+    {"id":"Q18","type":"single_choice","stem":"卯对应的是？","options":["震宫/长男","巽宫/长女","坎宫/中男","兑宫/少女"],"answer":[0],"tags":["配对"],"explanation":"卯→震长男。","difficulty":"L1"},
+    {"id":"Q19","type":"single_choice","stem":"子对应的是？","options":["坎宫/中男","离宫/中女","乾宫/父","坤宫/母"],"answer":[0],"tags":["配对"],"explanation":"子→坎中男。","difficulty":"L1"},
+    {"id":"Q20","type":"single_choice","stem":"综合判断流程正确的是？","options":["只看地支本意","先定秩序/顺序，再用地支本意取象","只看寄宫","只看根基/出处"],"answer":[1],"tags":["流程"],"explanation":"先秩序/顺序，再用地支本意取象辅助。","difficulty":"L2"}
+  ]
+}

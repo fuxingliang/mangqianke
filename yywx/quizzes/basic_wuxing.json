@@ -1,0 +1,46 @@
+{
+  "id": "quiz_basic_wuxing",
+  "title": "基础五行与阴阳",
+  "questions": [
+    {
+      "id": "basic_wuxing_001",
+      "type": "single_choice",
+      "stem": "以下哪个地支属木？",
+      "options": ["子", "卯", "午", "酉"],
+      "answer": [1],
+      "tags": ["五行", "地支"],
+      "explanation": "卯在仲春，木旺；子属水，午火，酉金。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "basic_wuxing_002",
+      "type": "single_choice",
+      "stem": "五行生克中，木克什么？",
+      "options": ["水", "金", "土", "火"],
+      "answer": [2],
+      "tags": ["五行", "生克"],
+      "explanation": "木克土；金克木；水克火；火克金；土克水。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "basic_wuxing_003",
+      "type": "single_choice",
+      "stem": "以下哪个月份木旺？",
+      "options": ["一月（丑）", "二月（卯）", "五月（午）", "八月（酉）"],
+      "answer": [1],
+      "tags": ["旺衰", "月份"],
+      "explanation": "仲春二月卯木旺。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "basic_wuxing_004",
+      "type": "single_choice",
+      "stem": "乙在阴阳与五行中的属性是？",
+      "options": ["阳木", "阴木", "阴火", "阳金"],
+      "answer": [1],
+      "tags": ["阴阳", "五行"],
+      "explanation": "乙为阴木。",
+      "difficulty": "L1"
+    }
+  ]
+}

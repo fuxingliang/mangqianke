@@ -1,0 +1,21 @@
+{
+  "id": "quiz_ten_gods_plus",
+  "title": "十神与映射（扩充）",
+  "questions": [
+    {"id": "ten_plus_001", "type": "single_choice", "stem": "日主为丙火，庚金相对于丙火的十神是什么？", "options": ["官杀", "财", "印", "比肩"], "answer": [1], "tags": ["十神", "财"], "explanation": "火克金为我克，属财。", "difficulty": "L2"},
+    {"id": "ten_plus_002", "type": "single_choice", "stem": "日主为丙火，壬水相对于丙火的十神是什么？", "options": ["官杀", "财", "印", "食伤"], "answer": [0], "tags": ["十神", "官杀"], "explanation": "水克火为官杀。", "difficulty": "L2"},
+    {"id": "ten_plus_003", "type": "single_choice", "stem": "日主为丙火，甲木相对于丙火的十神是什么？", "options": ["印", "财", "官杀", "比劫"], "answer": [0], "tags": ["十神", "印"], "explanation": "木生火为印。", "difficulty": "L2"},
+    {"id": "ten_plus_004", "type": "single_choice", "stem": "日主为丙火，戊土相对于丙火的十神是什么？", "options": ["食伤", "印", "财", "官杀"], "answer": [0], "tags": ["十神", "食伤"], "explanation": "火生土为我生，属食伤。", "difficulty": "L2"},
+    {"id": "ten_plus_005", "type": "single_choice", "stem": "日主为辛金，壬水相对于辛金的十神是什么？", "options": ["食伤", "官杀", "财", "印"], "answer": [0], "tags": ["十神", "食伤"], "explanation": "金生水为我生，属食伤。", "difficulty": "L2"},
+    {"id": "ten_plus_006", "type": "single_choice", "stem": "日主为辛金，丙火相对于辛金的十神是什么？", "options": ["官杀", "印", "财", "比劫"], "answer": [0], "tags": ["十神", "官杀"], "explanation": "火克金为官杀。", "difficulty": "L2"},
+    {"id": "ten_plus_007", "type": "single_choice", "stem": "日主为辛金，乙木相对于辛金的十神是什么？", "options": ["财", "官杀", "印", "食伤"], "answer": [0], "tags": ["十神", "财"], "explanation": "金克木为我克，属财。", "difficulty": "L2"},
+    {"id": "ten_plus_008", "type": "single_choice", "stem": "日主为甲木，庚金相对于甲木的十神是什么？", "options": ["官杀", "财", "印", "食伤"], "answer": [0], "tags": ["十神", "官杀"], "explanation": "金克木为官杀。", "difficulty": "L2"},
+    {"id": "ten_plus_009", "type": "single_choice", "stem": "日主为甲木，丁火相对于甲木的十神是什么？", "options": ["食伤", "印", "财", "官杀"], "answer": [0], "tags": ["十神", "食伤"], "explanation": "木生火为我生，属食伤。", "difficulty": "L2"},
+    {"id": "ten_plus_010", "type": "single_choice", "stem": "日主为甲木，癸水相对于甲木的十神是什么？", "options": ["印", "财", "食伤", "官杀"], "answer": [0], "tags": ["十神", "印"], "explanation": "水生木为生我，属印。", "difficulty": "L2"},
+    {"id": "ten_plus_011", "type": "single_choice", "stem": "日主为甲木，己土相对于甲木的十神是什么？", "options": ["财", "官杀", "印", "比劫"], "answer": [0], "tags": ["十神", "财"], "explanation": "木克土为我克，属财。", "difficulty": "L2"},
+    {"id": "ten_plus_012", "type": "single_choice", "stem": "日主为壬水，甲木相对于壬水的十神是什么？", "options": ["食伤", "官杀", "财", "印"], "answer": [0], "tags": ["十神", "食伤"], "explanation": "水生木为我生，属食伤。", "difficulty": "L2"},
+    {"id": "ten_plus_013", "type": "single_choice", "stem": "日主为壬水，庚金相对于壬水的十神是什么？", "options": ["印", "财", "食伤", "官杀"], "answer": [0], "tags": ["十神", "印"], "explanation": "金生水为生我，属印。", "difficulty": "L2"},
+    {"id": "ten_plus_014", "type": "single_choice", "stem": "日主为壬水，丙火相对于壬水的十神是什么？", "options": ["财", "官杀", "印", "比劫"], "answer": [0], "tags": ["十神", "财"], "explanation": "水克火为我克，属财。", "difficulty": "L2"},
+    {"id": "ten_plus_015", "type": "single_choice", "stem": "日主为壬水，戊土相对于壬水的十神是什么？", "options": ["官杀", "印", "财", "食伤"], "answer": [0], "tags": ["十神", "官杀"], "explanation": "土克水为官杀。", "difficulty": "L2"}
+  ]
+}

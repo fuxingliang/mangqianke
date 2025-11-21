@@ -1,0 +1,56 @@
+{
+  "id": "basic_wuxing_plus",
+  "title": "基础题库：阴阳与五行（示例）",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "single_choice",
+      "stem": "阴阳的基本对立是什么？",
+      "options": ["动与静", "刚与柔", "阴与阳", "上与下"],
+      "answer": [2],
+      "tags": ["阴阳"],
+      "explanation": "阴阳两极对立而统一，题目为概念辨识。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q2",
+      "type": "single_choice",
+      "stem": "五行中代表木的是？",
+      "options": ["甲乙", "丙丁", "庚辛", "壬癸"],
+      "answer": [0],
+      "tags": ["五行"],
+      "explanation": "甲乙属木，丙丁属火，庚辛属金，壬癸属水。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q3",
+      "type": "single_choice",
+      "stem": "五行相生中木生什么？",
+      "options": ["火", "土", "金", "水"],
+      "answer": [0],
+      "tags": ["五行相生"],
+      "explanation": "木生火，火生土，土生金，金生水，水生木。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q4",
+      "type": "single_choice",
+      "stem": "后天八卦中，离宫对应？",
+      "options": ["中女", "长男", "父", "母"],
+      "answer": [0],
+      "tags": ["八卦"],
+      "explanation": "离宫对应中女（见课程 A9）。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q5",
+      "type": "single_choice",
+      "stem": "十天干寄宫中，甲寄？",
+      "options": ["寅", "卯", "巳", "申"],
+      "answer": [0],
+      "tags": ["寄宫"],
+      "explanation": "甲寄寅，乙寄卯（见课程 A8）。",
+      "difficulty": "L1"
+    }
+  ]
+}

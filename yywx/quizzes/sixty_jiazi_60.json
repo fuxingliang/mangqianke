@@ -1,0 +1,609 @@
+{
+  "id": "A4_60花甲子",
+  "title": "A4 60 花甲子基础题库（60题）",
+  "questions": [
+    {
+      "id": "A4-Y01",
+      "type": "single_choice",
+      "stem": "1983年的年干支是什么？",
+      "options": ["癸酉", "癸亥", "甲子", "壬戌"],
+      "answer": [1],
+      "tags": ["年份", "花甲子"],
+      "explanation": "锚点：1984=甲子，1983为上一位→癸亥。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y02",
+      "type": "single_choice",
+      "stem": "1984年的年干支是什么？",
+      "options": ["甲子", "乙丑", "癸亥", "壬申"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "常用锚点：1984 为甲子年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y03",
+      "type": "single_choice",
+      "stem": "1990年的年干支是什么？",
+      "options": ["庚午", "辛未", "己巳", "壬申"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "1984=甲子，顺排 6 位→庚午。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y04",
+      "type": "single_choice",
+      "stem": "1993年的年干支是什么？",
+      "options": ["癸酉", "甲戌", "壬申", "乙酉"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "1993 为癸酉年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y05",
+      "type": "single_choice",
+      "stem": "1994年的年干支是什么？",
+      "options": ["甲戌", "乙亥", "癸酉", "丙子"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "癸酉后为甲戌。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y06",
+      "type": "single_choice",
+      "stem": "2000年的年干支是什么？",
+      "options": ["庚辰", "己卯", "戊寅", "辛巳"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2000 为庚辰年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y07",
+      "type": "single_choice",
+      "stem": "2001年的年干支是什么？",
+      "options": ["庚辰", "辛巳", "壬午", "癸未"],
+      "answer": [1],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2001 为辛巳年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y08",
+      "type": "single_choice",
+      "stem": "2003年的年干支是什么？",
+      "options": ["壬午", "癸未", "甲申", "乙酉"],
+      "answer": [1],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2003 为癸未年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y09",
+      "type": "single_choice",
+      "stem": "2004年的年干支是什么？",
+      "options": ["甲申", "乙酉", "丙戌", "丁亥"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2004 为甲申年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y10",
+      "type": "single_choice",
+      "stem": "2005年的年干支是什么？",
+      "options": ["乙酉", "丙戌", "丁亥", "戊子"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2005 为乙酉年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y11",
+      "type": "single_choice",
+      "stem": "2008年的年干支是什么？",
+      "options": ["戊子", "己丑", "庚寅", "辛卯"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2008 为戊子年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y12",
+      "type": "single_choice",
+      "stem": "2009年的年干支是什么？",
+      "options": ["戊子", "己丑", "庚寅", "辛卯"],
+      "answer": [1],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2009 为己丑年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y13",
+      "type": "single_choice",
+      "stem": "2010年的年干支是什么？",
+      "options": ["庚寅", "辛卯", "壬辰", "癸巳"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2010 为庚寅年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y14",
+      "type": "single_choice",
+      "stem": "2012年的年干支是什么？",
+      "options": ["壬辰", "癸巳", "甲午", "乙未"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2012 为壬辰年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y15",
+      "type": "single_choice",
+      "stem": "2013年的年干支是什么？",
+      "options": ["癸巳", "甲午", "乙未", "丙申"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2013 为癸巳年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y16",
+      "type": "single_choice",
+      "stem": "2014年的年干支是什么？",
+      "options": ["甲午", "乙未", "丙申", "丁酉"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2014 为甲午年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y17",
+      "type": "single_choice",
+      "stem": "2016年的年干支是什么？",
+      "options": ["丙申", "丁酉", "戊戌", "己亥"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2016 为丙申年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y18",
+      "type": "single_choice",
+      "stem": "2017年的年干支是什么？",
+      "options": ["丙申", "丁酉", "戊戌", "己亥"],
+      "answer": [1],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2017 为丁酉年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y19",
+      "type": "single_choice",
+      "stem": "2019年的年干支是什么？",
+      "options": ["戊戌", "己亥", "庚子", "辛丑"],
+      "answer": [1],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2019 为己亥年。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-Y20",
+      "type": "single_choice",
+      "stem": "2020年的年干支是什么？",
+      "options": ["庚子", "辛丑", "壬寅", "癸卯"],
+      "answer": [0],
+      "tags": ["年份", "花甲子"],
+      "explanation": "2020 为庚子年。",
+      "difficulty": "easy"
+    },
+
+    {
+      "id": "A4-P01",
+      "type": "single_choice",
+      "stem": "“癸酉年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1993", "1994", "1983", "2005"],
+      "answer": [0],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "癸酉逢 1933/1993/2053… 间隔 60 年循环。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P02",
+      "type": "single_choice",
+      "stem": "“甲子年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1984", "1983", "1994", "2004"],
+      "answer": [0],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "甲子逢 1864/1924/1984/2044… 间隔 60 年。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P03",
+      "type": "single_choice",
+      "stem": "“乙亥年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1995", "1993", "2005", "2017"],
+      "answer": [0],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "乙亥逢 1935/1995/2055…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P04",
+      "type": "single_choice",
+      "stem": "“丁酉年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1957", "1997", "2007", "2017"],
+      "answer": [3],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "丁酉逢 1957/2017… 间隔 60 年。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P05",
+      "type": "single_choice",
+      "stem": "“乙酉年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1945", "1995", "2005", "2015"],
+      "answer": [2],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "乙酉逢 1945/2005/2065…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P06",
+      "type": "single_choice",
+      "stem": "“庚子年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1960", "2000", "2020", "2030"],
+      "answer": [2],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "庚子逢 1900/1960/2020…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P07",
+      "type": "single_choice",
+      "stem": "“壬寅年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1962", "2002", "2022", "2032"],
+      "answer": [2],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "壬寅逢 1962/2022…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P08",
+      "type": "single_choice",
+      "stem": "“甲申年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1944", "2004", "2014", "2024"],
+      "answer": [1],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "甲申逢 1944/2004…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P09",
+      "type": "single_choice",
+      "stem": "“癸卯年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1963", "2023", "2033", "1993"],
+      "answer": [1],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "癸卯逢 1963/2023…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-P10",
+      "type": "single_choice",
+      "stem": "“甲午年可能是哪一年？”以下哪一个是正确选项？",
+      "options": ["1954", "2014", "2024", "2064"],
+      "answer": [1],
+      "tags": ["可能年份", "花甲子"],
+      "explanation": "甲午逢 1954/2014…",
+      "difficulty": "medium"
+    },
+
+    {
+      "id": "A4-S01",
+      "type": "single_choice",
+      "stem": "顺排：甲子的下一位是？",
+      "options": ["乙丑", "癸亥", "丙寅", "甲戌"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "甲子 → 乙丑。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S02",
+      "type": "single_choice",
+      "stem": "逆排：乙丑的上一位是？",
+      "options": ["甲子", "丙子", "癸亥", "甲寅"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "乙丑 ← 甲子。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S03",
+      "type": "single_choice",
+      "stem": "顺排：癸亥的下一位是？",
+      "options": ["甲子", "乙丑", "壬戌", "甲戌"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "癸亥 → 甲子（循环首尾相接）。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S04",
+      "type": "single_choice",
+      "stem": "逆排：庚午的上一位是？",
+      "options": ["己巳", "辛未", "戊巳", "己未"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "庚午 ← 己巳。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S05",
+      "type": "single_choice",
+      "stem": "顺排：辛未的下一位是？",
+      "options": ["壬申", "癸酉", "庚午", "乙未"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "辛未 → 壬申。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S06",
+      "type": "single_choice",
+      "stem": "逆排：壬申的上一位是？",
+      "options": ["辛未", "癸未", "庚申", "辛申"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "壬申 ← 辛未。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S07",
+      "type": "single_choice",
+      "stem": "逆排：甲申的上一位是？",
+      "options": ["癸未", "乙酉", "甲午", "癸巳"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "甲申 ← 癸未。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S08",
+      "type": "single_choice",
+      "stem": "顺排：乙酉的下一位是？",
+      "options": ["丙戌", "丁亥", "甲申", "戊子"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "乙酉 → 丙戌。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S09",
+      "type": "single_choice",
+      "stem": "顺排：丙辰的下一位是？",
+      "options": ["丁巳", "戊午", "乙卯", "丙寅"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "丙辰 → 丁巳。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S10",
+      "type": "single_choice",
+      "stem": "逆排：甲午的上一位是？",
+      "options": ["癸巳", "乙未", "丙申", "丁酉"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "甲午 ← 癸巳。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S11",
+      "type": "single_choice",
+      "stem": "逆排：戊戌的上一位是？",
+      "options": ["丁酉", "己亥", "丙申", "庚子"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "戊戌 ← 丁酉。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S12",
+      "type": "single_choice",
+      "stem": "顺排：己亥的下一位是？",
+      "options": ["庚子", "辛丑", "壬寅", "癸卯"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "己亥 → 庚子。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S13",
+      "type": "single_choice",
+      "stem": "顺排：甲寅的下一位是？",
+      "options": ["乙卯", "丙辰", "丁巳", "戊午"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "甲寅 → 乙卯。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S14",
+      "type": "single_choice",
+      "stem": "逆排：丁亥的上一位是？",
+      "options": ["丙戌", "乙酉", "戊子", "己丑"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "丁亥 ← 丙戌。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S15",
+      "type": "single_choice",
+      "stem": "顺排：癸巳的下一位是？",
+      "options": ["甲午", "乙未", "丙申", "丁酉"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "癸巳 → 甲午。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S16",
+      "type": "single_choice",
+      "stem": "逆排：庚辰的上一位是？",
+      "options": ["己卯", "戊寅", "辛巳", "壬午"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "庚辰 ← 己卯。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S17",
+      "type": "single_choice",
+      "stem": "顺排：丙申的下一位是？",
+      "options": ["丁酉", "戊戌", "己亥", "庚子"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "丙申 → 丁酉。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S18",
+      "type": "single_choice",
+      "stem": "逆排：辛卯的上一位是？",
+      "options": ["庚寅", "壬辰", "癸巳", "甲午"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "辛卯 ← 庚寅。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S19",
+      "type": "single_choice",
+      "stem": "顺排：壬午的下一位是？",
+      "options": ["癸未", "甲申", "乙酉", "丙戌"],
+      "answer": [0],
+      "tags": ["顺排", "花甲子"],
+      "explanation": "壬午 → 癸未。",
+      "difficulty": "easy"
+    },
+    {
+      "id": "A4-S20",
+      "type": "single_choice",
+      "stem": "逆排：甲戌的上一位是？",
+      "options": ["癸酉", "甲申", "乙酉", "丙戌"],
+      "answer": [0],
+      "tags": ["逆排", "花甲子"],
+      "explanation": "甲戌 ← 癸酉。",
+      "difficulty": "easy"
+    },
+
+    {
+      "id": "A4-X01",
+      "type": "single_choice",
+      "stem": "甲子旬的旬空是？",
+      "options": ["戌亥", "申酉", "午未", "子丑"],
+      "answer": [0],
+      "tags": ["旬空", "六甲旬"],
+      "explanation": "六甲旬空记忆：甲子旬空为戌亥。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X02",
+      "type": "single_choice",
+      "stem": "甲戌旬的旬空是？",
+      "options": ["申酉", "戌亥", "午未", "寅卯"],
+      "answer": [0],
+      "tags": ["旬空", "六甲旬"],
+      "explanation": "甲戌旬空为申酉。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X03",
+      "type": "single_choice",
+      "stem": "甲申旬的旬空是？",
+      "options": ["午未", "辰巳", "寅卯", "子丑"],
+      "answer": [0],
+      "tags": ["旬空", "六甲旬"],
+      "explanation": "甲申旬空为午未。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X04",
+      "type": "single_choice",
+      "stem": "甲午旬的旬空是？",
+      "options": ["辰巳", "午未", "申酉", "戌亥"],
+      "answer": [0],
+      "tags": ["旬空", "六甲旬"],
+      "explanation": "甲午旬空为辰巳。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X05",
+      "type": "single_choice",
+      "stem": "甲辰旬的旬空是？",
+      "options": ["寅卯", "子丑", "戌亥", "申酉"],
+      "answer": [0],
+      "tags": ["旬空", "六甲旬"],
+      "explanation": "甲辰旬空为寅卯。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X06",
+      "type": "single_choice",
+      "stem": "甲寅旬的旬空是？",
+      "options": ["子丑", "寅卯", "辰巳", "午未"],
+      "answer": [0],
+      "tags": ["旬空", "六甲旬"],
+      "explanation": "甲寅旬空为子丑。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X07",
+      "type": "single_choice",
+      "stem": "以下哪个干支属于“甲子旬”？",
+      "options": ["壬申", "甲申", "丙辰", "癸亥"],
+      "answer": [0],
+      "tags": ["六甲旬", "序列归属"],
+      "explanation": "甲子旬含：甲子、乙丑、丙寅、丁卯、戊辰、己巳、庚午、辛未、壬申、癸酉。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X08",
+      "type": "single_choice",
+      "stem": "以下哪个干支属于“甲申旬”？",
+      "options": ["甲申", "癸亥", "乙卯", "庚申"],
+      "answer": [0],
+      "tags": ["六甲旬", "序列归属"],
+      "explanation": "甲申旬起于甲申，含：甲申、乙酉、丙戌、丁亥、戊子、己丑、庚寅、辛卯、壬辰、癸巳。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X09",
+      "type": "single_choice",
+      "stem": "以下哪个干支属于“甲午旬”？",
+      "options": ["癸巳", "甲午", "乙未", "庚申"],
+      "answer": [1],
+      "tags": ["六甲旬", "序列归属"],
+      "explanation": "甲午旬起于甲午，含：甲午、乙未、丙申、丁酉、戊戌、己亥、庚子、辛丑、壬寅、癸卯。",
+      "difficulty": "medium"
+    },
+    {
+      "id": "A4-X10",
+      "type": "single_choice",
+      "stem": "以下哪个干支属于“甲寅旬”？",
+      "options": ["癸亥", "丙辰", "甲申", "壬申"],
+      "answer": [0],
+      "tags": ["六甲旬", "序列归属"],
+      "explanation": "甲寅旬含：甲寅、乙卯、丙辰、丁巳、戊午、己未、庚申、辛酉、壬戌、癸亥。",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>云俟尘命理学基础 - Web 版</title>
+<link rel="stylesheet" href="./style.css" />
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+<header class="app-header">
+<div class="title">云俟尘命理学基础</div>
+<div class="actions">
+<button id="btn-minus">A-</button>
+<button id="btn-plus">A+</button>
+</div>
+</header>
+<main class="app-main">
+<aside class="sidebar">
+<div class="sidebar-title">课程与小节</div>
+<ul id="lesson-list"></ul>
+</aside>
+<section class="content">
+<nav class="tabs">
+<button data-tab="lesson" class="tab active">课程</button>
+<button data-tab="practice" class="tab">练习</button>
+<button data-tab="wrong" class="tab">错题</button>
+<button data-tab="exam" class="tab">考试</button>
+</nav>
+<div id="status" class="status"></div>
+<div id="panel-lesson" class="panel active">
+<h2 id="lesson-title"></h2>
+<div id="lesson-content" class="md"></div>
+</div>
+<div id="panel-practice" class="panel">
+<h2 id="practice-title"></h2>
+<div id="practice-stem"></div>
+<div id="practice-options"></div>
+<div id="practice-feedback"></div>
+<div id="practice-eval" class="eval">
+<label>评分</label>
+<select id="practice-rating">
+<option>1 很差</option>
+<option>2 较差</option>
+<option selected>3 一般</option>
+<option>4 良好</option>
+<option>5 优秀</option>
+</select>
+<input id="practice-comment" placeholder="备注（可选）" />
+<button id="practice-save">保存错题评价</button>
+</div>
+<div class="row">
+<button id="practice-next">下一题</button>
+</div>
+<div id="practice-summary" class="summary"></div>
+</div>
+<div id="panel-wrong" class="panel">
+<h2>错题本复习</h2>
+<div class="row"><button id="wrong-refresh">刷新并开始</button></div>
+<div id="wrong-container">
+<h3 id="wrong-title"></h3>
+<div id="wrong-stem"></div>
+<div id="wrong-options"></div>
+<div id="wrong-feedback"></div>
+<div class="row"><button id="wrong-next">下一题</button></div>
+<div id="wrong-summary" class="summary"></div>
+</div>
+</div>
+<div id="panel-exam" class="panel">
+<h2 id="exam-title">考试</h2>
+<div id="exam-info"></div>
+<div class="row">
+<button id="exam-prev">上一页</button>
+<button id="exam-next">下一页</button>
+<div id="exam-page" class="page"></div>
+<button id="exam-submit">提交</button>
+ </div>
+<div id="exam-pages"></div>
+</div>
+</section>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>

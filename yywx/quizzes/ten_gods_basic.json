@@ -1,0 +1,36 @@
+{
+  "id": "quiz_ten_gods_basic",
+  "title": "十神与映射入门",
+  "questions": [
+    {
+      "id": "ten_001",
+      "type": "single_choice",
+      "stem": "日主为丙火，庚金相对于丙火的十神是什么？",
+      "options": ["官杀", "财", "印", "比肩"],
+      "answer": [1],
+      "tags": ["十神", "财"],
+      "explanation": "火克金为我克，属财。",
+      "difficulty": "L2"
+    },
+    {
+      "id": "ten_002",
+      "type": "single_choice",
+      "stem": "日主为辛金，壬水相对于辛金的十神是什么？",
+      "options": ["食伤", "财", "官杀", "印"],
+      "answer": [0],
+      "tags": ["十神", "食伤"],
+      "explanation": "金生水，水为辛金之我生，属食伤。",
+      "difficulty": "L2"
+    },
+    {
+      "id": "ten_003",
+      "type": "single_choice",
+      "stem": "日主为甲木，申中庚金对于甲木的十神是什么？",
+      "options": ["官杀", "财", "印", "比肩"],
+      "answer": [0],
+      "tags": ["十神", "官杀"],
+      "explanation": "金克木为官杀。",
+      "difficulty": "L2"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "quiz_basic_ganzhi",
+  "title": "天干地支基础",
+  "questions": [
+    {
+      "id": "ganzhi_001",
+      "type": "single_choice",
+      "stem": "以下哪一天干属木？",
+      "options": ["甲", "丙", "庚", "辛"],
+      "answer": [0],
+      "tags": ["天干", "五行"],
+      "explanation": "甲为阳木；丙火、庚辛金。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "ganzhi_002",
+      "type": "single_choice",
+      "stem": "以下哪一地支属火？",
+      "options": ["寅", "卯", "巳", "申"],
+      "answer": [2],
+      "tags": ["地支", "五行"],
+      "explanation": "巳、午属火；寅卯属木，申属金。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "ganzhi_003",
+      "type": "single_choice",
+      "stem": "三合木局是以下哪一个？",
+      "options": ["亥卯未", "巳酉丑", "申子辰", "寅午戌"],
+      "answer": [0],
+      "tags": ["地支", "三合"],
+      "explanation": "亥卯未三合木；巳酉丑三合金；申子辰三合水；寅午戌三合火。",
+      "difficulty": "L2"
+    }
+  ]
+}

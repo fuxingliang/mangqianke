@@ -1,0 +1,29 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Arial,Microsoft YaHei,SimSun;font-size:16px;color:#222}
+.app-header{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid #e5e5e5;background:#fafafa}
+.title{font-size:18px;font-weight:600}
+.actions button{margin-left:8px}
+.app-main{display:flex;height:calc(100vh - 54px)}
+.sidebar{width:280px;border-right:1px solid #e5e5e5;overflow:auto}
+.sidebar-title{padding:10px 12px;font-weight:600}
+#lesson-list{list-style:none;margin:0;padding:0}
+#lesson-list li{padding:8px 12px;cursor:pointer}
+#lesson-list li:hover{background:#f2f2f2}
+.content{flex:1;display:flex;flex-direction:column}
+.tabs{display:flex;border-bottom:1px solid #e5e5e5;padding:6px 8px}
+.tab{margin-right:8px;padding:6px 10px;cursor:pointer;border:none;background:#f5f5f5}
+.tab.active{background:#e3e7ff}
+.status{padding:8px 12px;color:#555}
+.panel{display:none;padding:12px;overflow:auto}
+.panel.active{display:block}
+.md img{max-width:100%}
+.row{margin:10px 0;display:flex;gap:10px;align-items:center}
+.summary{margin-top:8px;color:#555}
+.eval{margin:10px 0;display:none;gap:8px}
+.page{margin-left:auto;color:#666}
+#practice-options .opt,#wrong-options .opt{margin:6px 0}
+#exam-pages{margin-top:10px}
+.question{margin:10px 0;padding-bottom:6px;border-bottom:1px dashed #ddd}
+.opt-inline{display:flex;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){.sidebar{width:220px}}

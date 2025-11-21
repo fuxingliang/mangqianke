@@ -1,0 +1,206 @@
+{
+  "id": "quiz_roots_and_origins",
+  "title": "A6 寻根基问出处（练习与考试题）",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "single_choice",
+      "stem": "甲乙的根基包含以下哪一组地支？",
+      "options": ["申酉巳", "寅卯亥子", "丑戌", "未辰"],
+      "answer": [1],
+      "tags": ["甲乙", "根基"],
+      "explanation": "甲乙木的根基为寅、卯、亥、子。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q2",
+      "type": "single_choice",
+      "stem": "甲乙的出处是以下哪一组地支？",
+      "options": ["未辰", "丑戌", "未戌", "丑辰"],
+      "answer": [0],
+      "tags": ["甲乙", "出处"],
+      "explanation": "甲乙木的出处为未、辰。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q3",
+      "type": "single_choice",
+      "stem": "丙丁的根基包含以下哪一组地支？",
+      "options": ["巳午寅卯", "亥子申酉", "寅卯亥子", "申酉巳"],
+      "answer": [0],
+      "tags": ["丙丁", "根基"],
+      "explanation": "丙丁火的根基为巳、午、寅、卯。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q4",
+      "type": "single_choice",
+      "stem": "丙丁的出处是以下哪一组地支？",
+      "options": ["未戌", "未辰", "丑戌", "丑辰"],
+      "answer": [0],
+      "tags": ["丙丁", "出处"],
+      "explanation": "丙丁火的出处为未、戌。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q5",
+      "type": "single_choice",
+      "stem": "庚辛的根基包含以下哪一组地支？",
+      "options": ["申酉巳", "寅卯亥子", "巳午寅卯", "亥子申酉"],
+      "answer": [0],
+      "tags": ["庚辛", "根基"],
+      "explanation": "庚辛金的根基为申、酉、巳。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q6",
+      "type": "single_choice",
+      "stem": "庚辛的出处是以下哪一组地支？",
+      "options": ["丑戌", "未戌", "未辰", "丑辰"],
+      "answer": [0],
+      "tags": ["庚辛", "出处"],
+      "explanation": "庚辛金的出处为丑、戌。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q7",
+      "type": "single_choice",
+      "stem": "壬癸的根基包含以下哪一组地支？",
+      "options": ["亥子申酉", "巳午寅卯", "申酉巳", "寅卯亥子"],
+      "answer": [0],
+      "tags": ["壬癸", "根基"],
+      "explanation": "壬癸水的根基为亥、子、申、酉。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q8",
+      "type": "single_choice",
+      "stem": "壬癸的出处是以下哪一组地支？",
+      "options": ["丑辰", "丑戌", "未辰", "未戌"],
+      "answer": [0],
+      "tags": ["壬癸", "出处"],
+      "explanation": "壬癸水的出处为丑、辰。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q9",
+      "type": "single_choice",
+      "stem": "戊己的根基说法正确的是？",
+      "options": ["巳午未戌为全根基，辰丑为半根基", "只论根基不论出处", "根基为寅卯亥子", "根基为申酉巳"],
+      "answer": [0],
+      "tags": ["戊己", "根基"],
+      "explanation": "戊己土：巳、午、未、戌为全根基，辰、丑为半根基。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q10",
+      "type": "single_choice",
+      "stem": "关于戊己土的取用，下列说法正确的是？",
+      "options": ["只论出处", "只论根基", "根基与出处同等重要", "先论根基再论出处"],
+      "answer": [0],
+      "tags": ["戊己", "取用"],
+      "explanation": "戊己土在实占中只论出处（重性质）。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q11",
+      "type": "single_choice",
+      "stem": "“根基”更侧重于下列哪个方面？",
+      "options": ["力量/旺衰", "性质/取象", "格局", "大运"],
+      "answer": [0],
+      "tags": ["概念", "根基"],
+      "explanation": "根基强调力量来源与旺衰。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q12",
+      "type": "single_choice",
+      "stem": "“出处”更侧重于下列哪个方面？",
+      "options": ["性质/取象", "力量/旺衰", "数理", "岁运"],
+      "answer": [0],
+      "tags": ["概念", "出处"],
+      "explanation": "出处强调性质、属性与取象。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q13",
+      "type": "single_choice",
+      "stem": "下列哪项组合正确：庚辛（金）的出处是？",
+      "options": ["丑戌", "未辰", "丑辰", "未戌"],
+      "answer": [0],
+      "tags": ["庚辛", "出处"],
+      "explanation": "庚辛金的出处为丑、戌。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q14",
+      "type": "single_choice",
+      "stem": "下列哪项组合正确：丙丁（火）的根基是？",
+      "options": ["巳午寅卯", "申酉巳", "亥子申酉", "寅卯亥子"],
+      "answer": [0],
+      "tags": ["丙丁", "根基"],
+      "explanation": "丙丁火的根基为巳、午、寅、卯。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q15",
+      "type": "single_choice",
+      "stem": "下列哪项组合正确：壬癸（水）的出处是？",
+      "options": ["丑辰", "丑戌", "未辰", "未戌"],
+      "answer": [0],
+      "tags": ["壬癸", "出处"],
+      "explanation": "壬癸水的出处为丑、辰。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q16",
+      "type": "single_choice",
+      "stem": "下列关于甲乙（木）的说法正确的是？",
+      "options": ["根基：寅卯亥子；出处：未辰", "根基：申酉巳；出处：丑戌", "根基：巳午寅卯；出处：未戌", "根基：亥子申酉；出处：丑辰"],
+      "answer": [0],
+      "tags": ["综合", "甲乙"],
+      "explanation": "甲乙木：根基寅卯亥子，出处未辰。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q17",
+      "type": "single_choice",
+      "stem": "下列关于庚辛（金）的说法正确的是？",
+      "options": ["根基：申酉巳；出处：丑戌", "根基：寅卯亥子；出处：未辰", "根基：巳午寅卯；出处：未戌", "根基：亥子申酉；出处：丑辰"],
+      "answer": [0],
+      "tags": ["综合", "庚辛"],
+      "explanation": "庚辛金：根基申酉巳，出处丑戌。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q18",
+      "type": "single_choice",
+      "stem": "下列关于丙丁（火）的说法正确的是？",
+      "options": ["根基：巳午寅卯；出处：未戌", "根基：申酉巳；出处：丑戌", "根基：寅卯亥子；出处：未辰", "根基：亥子申酉；出处：丑辰"],
+      "answer": [0],
+      "tags": ["综合", "丙丁"],
+      "explanation": "丙丁火：根基巳午寅卯，出处未戌。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q19",
+      "type": "single_choice",
+      "stem": "下列关于壬癸（水）的说法正确的是？",
+      "options": ["根基：亥子申酉；出处：丑辰", "根基：申酉巳；出处：丑戌", "根基：巳午寅卯；出处：未戌", "根基：寅卯亥子；出处：未辰"],
+      "answer": [0],
+      "tags": ["综合", "壬癸"],
+      "explanation": "壬癸水：根基亥子申酉，出处丑辰。",
+      "difficulty": "L1"
+    },
+    {
+      "id": "Q20",
+      "type": "single_choice",
+      "stem": "以下关于“根基与出处”的总纲，哪项正确？",
+      "options": ["根基看力量，出处看性质", "根基看性质，出处看力量", "两者只看冲合", "只看日主旺衰"],
+      "answer": [0],
+      "tags": ["概念", "总纲"],
+      "explanation": "根基是力量，出处是性质。",
+      "difficulty": "L1"
+    }
+  ]
+}

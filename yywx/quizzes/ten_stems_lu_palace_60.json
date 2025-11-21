@@ -1,0 +1,26 @@
+{
+  "id": "quiz_ten_stems_lu_palace",
+  "title": "A8 十天干寄宫（禄位）练习与考试题",
+  "questions": [
+    {"id":"Q1","type":"single_choice","stem":"甲的寄宫（禄位）是？","options":["寅","卯","辰","未"],"answer":[0],"tags":["甲","寄宫"],"explanation":"甲寄寅。","difficulty":"L1"},
+    {"id":"Q2","type":"single_choice","stem":"乙的寄宫（禄位）是？","options":["寅","卯","巳","午"],"answer":[1],"tags":["乙","寄宫"],"explanation":"乙寄卯。","difficulty":"L1"},
+    {"id":"Q3","type":"single_choice","stem":"丙的寄宫（禄位）是？","options":["巳","午","戌","未"],"answer":[0],"tags":["丙","寄宫"],"explanation":"丙寄巳。","difficulty":"L1"},
+    {"id":"Q4","type":"single_choice","stem":"丁的寄宫（禄位）是？","options":["巳","午","戌","未"],"answer":[1],"tags":["丁","寄宫"],"explanation":"丁寄午。","difficulty":"L1"},
+    {"id":"Q5","type":"single_choice","stem":"戊的寄宫（禄位）是？","options":["戌","未","申","酉"],"answer":[0],"tags":["戊","寄宫"],"explanation":"戊寄戌。","difficulty":"L1"},
+    {"id":"Q6","type":"single_choice","stem":"己的寄宫（禄位）是？","options":["戌","未","申","酉"],"answer":[1],"tags":["己","寄宫"],"explanation":"己寄未。","difficulty":"L1"},
+    {"id":"Q7","type":"single_choice","stem":"庚的寄宫（禄位）是？","options":["申","酉","亥","子"],"answer":[0],"tags":["庚","寄宫"],"explanation":"庚寄申。","difficulty":"L1"},
+    {"id":"Q8","type":"single_choice","stem":"辛的寄宫（禄位）是？","options":["申","酉","亥","子"],"answer":[1],"tags":["辛","寄宫"],"explanation":"辛寄酉。","difficulty":"L1"},
+    {"id":"Q9","type":"single_choice","stem":"壬的寄宫（禄位）是？","options":["亥","子","寅","卯"],"answer":[0],"tags":["壬","寄宫"],"explanation":"壬寄亥。","difficulty":"L1"},
+    {"id":"Q10","type":"single_choice","stem":"癸的寄宫（禄位）是？","options":["亥","子","寅","卯"],"answer":[1],"tags":["癸","寄宫"],"explanation":"癸寄子。","difficulty":"L1"},
+    {"id":"Q11","type":"single_choice","stem":"寄宫用于哪个侧重？","options":["定位禄根","判断性质","评估旺衰","推算十神"],"answer":[0],"tags":["概念","应用"],"explanation":"寄宫偏定位禄根，快速路标。","difficulty":"L1"},
+    {"id":"Q12","type":"single_choice","stem":"寄宫与根基/出处的关系正确是？","options":["寄宫=根基","寄宫=出处","寄宫用于定位，根基看强弱，出处看性质","三者互不相关"],"answer":[2],"tags":["综合"],"explanation":"寄宫定位；根基强弱；出处性质。","difficulty":"L1"},
+    {"id":"Q13","type":"single_choice","stem":"‘串宫压运’中，寄宫的作用更接近？","options":["连通禄根与宫位","只看十神","只看节令","只看年柱"],"answer":[0],"tags":["串宫压运"],"explanation":"寄宫用于连通禄根与各宫位。","difficulty":"L2"},
+    {"id":"Q14","type":"single_choice","stem":"下列匹配正确的是？","options":["甲→卯","乙→寅","庚→申","辛→申"],"answer":[2],"tags":["匹配"],"explanation":"庚→申。","difficulty":"L1"},
+    {"id":"Q15","type":"single_choice","stem":"下列匹配正确的是？","options":["戊→未","己→戌","壬→子","癸→子"],"answer":[3],"tags":["匹配"],"explanation":"癸→子。","difficulty":"L1"},
+    {"id":"Q16","type":"single_choice","stem":"下列匹配正确的是？","options":["丙→巳","丁→巳","乙→寅","甲→卯"],"answer":[0],"tags":["匹配"],"explanation":"丙→巳。","difficulty":"L1"},
+    {"id":"Q17","type":"single_choice","stem":"寄宫在实占中的使用流程合理的是？","options":["先寄宫后秩序","先秩序后顺序，再以寄宫校验","只看寄宫即可","先岁运后寄宫"],"answer":[1],"tags":["流程"],"explanation":"先秩序（宫位优先）再顺序（本/余），寄宫用于校验。","difficulty":"L2"},
+    {"id":"Q18","type":"single_choice","stem":"下列匹配正确的是？","options":["辛→酉","壬→子","戊→未","丁→巳"],"answer":[0],"tags":["匹配"],"explanation":"辛→酉。","difficulty":"L1"},
+    {"id":"Q19","type":"single_choice","stem":"下列匹配正确的是？","options":["庚→酉","己→戌","甲→寅","乙→巳"],"answer":[2],"tags":["匹配"],"explanation":"甲→寅。","difficulty":"L1"},
+    {"id":"Q20","type":"single_choice","stem":"综合判断时，寄宫的最佳定位用途是？","options":["替代根基与出处","辅助定位禄根并验证去向","只决定用神","只决定吉凶"],"answer":[1],"tags":["综合"],"explanation":"寄宫辅助定位禄根并验证结论。","difficulty":"L2"}
+  ]
+}

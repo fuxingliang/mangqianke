@@ -1,0 +1,20 @@
+{
+  "id": "quiz_basic_ganzhi_plus",
+  "title": "天干地支基础（扩充）",
+  "questions": [
+    {"id": "ganzhi_plus_001", "type": "single_choice", "stem": "以下哪个天干为阴木？", "options": ["甲", "乙", "丙", "庚"], "answer": [1], "tags": ["天干", "阴阳"], "explanation": "乙为阴木；甲为阳木。", "difficulty": "L1"},
+    {"id": "ganzhi_plus_002", "type": "single_choice", "stem": "以下哪个天干为阳金？", "options": ["庚", "辛", "壬", "癸"], "answer": [0], "tags": ["天干", "阴阳"], "explanation": "庚为阳金，辛为阴金。", "difficulty": "L1"},
+    {"id": "ganzhi_plus_003", "type": "single_choice", "stem": "以下哪个地支属火？", "options": ["寅", "卯", "巳", "申"], "answer": [2], "tags": ["地支", "五行"], "explanation": "巳午属火。", "difficulty": "L1"},
+    {"id": "ganzhi_plus_004", "type": "single_choice", "stem": "以下哪个地支属金？", "options": ["卯", "午", "酉", "亥"], "answer": [2], "tags": ["地支", "五行"], "explanation": "酉属金。", "difficulty": "L1"},
+    {"id": "ganzhi_plus_005", "type": "single_choice", "stem": "亥的本气是哪一干？", "options": ["壬", "甲", "庚", "戊"], "answer": [0], "tags": ["地支藏干"], "explanation": "亥本气壬水（余气甲木）。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_006", "type": "single_choice", "stem": "申的本气是哪一干？", "options": ["庚", "辛", "壬", "戊"], "answer": [0], "tags": ["地支藏干"], "explanation": "申本气庚金（余气戊土、壬水）。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_007", "type": "single_choice", "stem": "以下哪组为三合金局？", "options": ["申子辰", "亥卯未", "巳酉丑", "寅午戌"], "answer": [2], "tags": ["三合"], "explanation": "巳酉丑为金局。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_008", "type": "single_choice", "stem": "以下哪组为三合水局？", "options": ["申子辰", "亥卯未", "巳酉丑", "寅午戌"], "answer": [0], "tags": ["三合"], "explanation": "申子辰为水局。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_009", "type": "single_choice", "stem": "以下哪组为三合木局？", "options": ["申子辰", "亥卯未", "巳酉丑", "寅午戌"], "answer": [1], "tags": ["三合"], "explanation": "亥卯未为木局。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_010", "type": "single_choice", "stem": "以下哪组为三合火局？", "options": ["申子辰", "亥卯未", "巳酉丑", "寅午戌"], "answer": [3], "tags": ["三合"], "explanation": "寅午戌为火局。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_011", "type": "single_choice", "stem": "以下哪组为六冲？", "options": ["子午", "子丑", "寅亥", "卯戌"], "answer": [0], "tags": ["六冲"], "explanation": "子午为六冲之一。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_012", "type": "single_choice", "stem": "以下哪组为六合？", "options": ["子午", "寅亥", "卯申", "辰戌"], "answer": [1], "tags": ["六合"], "explanation": "六合之一：寅亥。", "difficulty": "L2"},
+    {"id": "ganzhi_plus_013", "type": "single_choice", "stem": "卯的相冲是哪一支？", "options": ["子", "酉", "午", "亥"], "answer": [1], "tags": ["六冲"], "explanation": "卯酉相冲。", "difficulty": "L1"},
+    {"id": "ganzhi_plus_014", "type": "single_choice", "stem": "丁的阴阳属性是？", "options": ["阳火", "阴火", "阳木", "阴土"], "answer": [1], "tags": ["天干", "阴阳"], "explanation": "丙阳火，丁阴火。", "difficulty": "L1"}
+  ]
+}
